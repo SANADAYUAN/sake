@@ -1,0 +1,111 @@
+@import url('reset.css');
+
+body{
+    line-height: 1.6;
+    background-color: #FCFAF2;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* 頁首 */
+
+.header{
+    background-color: #171C38;
+    display: flex;
+
+}
+
+.header nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    line-height: 112px;
+}
+
+.header img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 18px;
+    left: 200px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #FCFAF2;
+    font-size: 25px;
+    padding-right: 40px;
+}
+
+.login{
+    position: absolute;
+    right: 10px;
+}
+
+.login i{
+    font-size: 25px;
+    width: 30px;
+    color: white;
+}
+
+/* 頁尾 */
+
+.footer{
+    background-color: #1c1c1c;
+    display: flex;
+    height: 300px;
+}
+
+.footer img{
+    width: 150px;
+    height: 150px;
+    margin: 65px 0 65px 160px;
+}
+
+.add{
+    margin: 75px 180px;
+}
+.add h3{
+    color: white;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.footer nav{
+    display: flex;
+}
+
+.footer .nav a{
+    text-decoration: none;
+    color: #FCFAF2;
+    font-size: 20px;
+    padding-right: 25px;
+    line-height: 250px;
+}
+
+
+.footer .nav p{
+    color: #FCFAF2;
+    margin-top: -50px;
+    font-size: 12px;
+}
+
+/* 警告標語 */
+
+.notice{
+    background-color: #D9D9D9;
+    opacity: .5;
+    position:fixed;
+    bottom : 0;
+    width : 100%;
+    max-width: 1920px;
+}
+
+.notice p{
+    font-size: 50px;
+    text-align: center;
+}

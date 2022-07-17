@@ -1,0 +1,191 @@
+@import url('reset.css');
+
+body{
+    line-height: 1.6;
+    background-color: #FCFAF2;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.head{
+    display: flex;
+}
+
+.head img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 80px;
+    top: 50px;
+}
+
+.head ul{
+    display: flex;
+    position: relative;
+    left: 420px;
+    top: 100px;
+}
+
+.head li{
+    margin-right: 40px;
+}
+
+.head a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #FCFAF2;
+}
+
+.head ol{
+    display: flex;
+    position: relative;
+    left: 818px;
+    top: 100px;
+}
+
+.head ol i{
+    color: #FCFAF2;
+	font-size: 30px;
+}
+
+.main{
+    background-image: url(../img/home/main_bg.png);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+.main h1{
+    color: white;
+    font-size: 90px;
+    letter-spacing: 15px;
+    writing-mode: vertical-lr;
+    position: relative;
+    left: 875px;
+    top: 270px;
+}
+
+.main h2{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 10px;
+    writing-mode: vertical-lr;
+    position: relative;
+    left: 850px;
+    top: 180px;
+}
+
+.center{
+    background-image: url(../img/home/center_bg.png);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.center h3{
+    color: white;
+    font-size: 70px;
+    writing-mode: vertical-lr;
+    letter-spacing: 20px;
+    position: relative;
+    left: 720px;
+    top: 370px;
+}
+
+.center h4{
+    color: white;
+    font-size: 70px;
+    writing-mode: vertical-lr;
+    letter-spacing: 20px;
+    position: relative;
+    left: 780px;
+    top: 280px;
+    
+}
+
+.center h5{
+    color: white;
+    font-size: 70px;
+    writing-mode: vertical-lr;
+    letter-spacing: 20px;
+    position: relative;
+    left: 840px;
+    top: 186px;
+}
+
+table{
+    margin-top: 50px;
+    background-image: url(../img/home/moon.png),
+                      url(../img/home/tree5.png),
+                      url(../img/home/tree6.png);
+    background-repeat: no-repeat;
+    background-position: right top,
+                         left center,
+                         right bottom;
+}
+
+td{
+    text-align: center;
+    vertical-align:middle;
+    color:#434343;
+    font-size: 40px;
+}
+
+.footer{
+    background-color: #1c1c1c;
+    display: flex;
+    height: 300px;
+}
+
+.footer img{
+    width: 150px;
+    height: 150px;
+    margin: 65px 0 65px 160px;
+}
+
+.add{
+    margin: 75px 180px;
+}
+.add h3{
+    color: white;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.footer nav{
+    display: flex;
+}
+
+.footer .nav a{
+    text-decoration: none;
+    color: #FCFAF2;
+    font-size: 25px;
+    padding-right: 25px;
+    line-height: 250px;
+}
+
+.footer .nav p{
+    color: #FCFAF2;
+    margin-top: -50px;
+    margin-left: 400px;
+    font-size: 12px;
+}
+
+.notice{
+    background-color: #D9D9D9;
+    opacity: .5;
+    position:fixed;
+    bottom : 0;
+    width : 100%;
+    max-width: 1920px;
+}
+
+.notice p{
+    font-size: 50px;
+    text-align: center;
+}

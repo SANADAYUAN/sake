@@ -1,0 +1,152 @@
+.top{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.top img{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    margin: 150px auto 0;
+    padding-bottom: 150px;
+    border-bottom: 1px solid #434343;
+    background-image: url(../img/home/tree3.png),
+                        url(../img/home/tree2.png);
+    background-repeat: no-repeat;
+    background-position: right -10px,
+                         left 340px;
+
+}
+
+.goods img{
+    width: 400px;
+    height: 400px;
+}
+
+.title{
+    color: #434343;
+    margin-left: 20px;
+}
+
+.title h1{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.title h2{
+    font-size: 24px;
+}
+
+.title p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 210px;
+    font-weight:bold;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.aside h3{
+    font-size: 40px;
+    color: #434343;
+}
+.add-card{
+    display: flex;
+    padding: 20px 0;
+}
+
+.add-card i{
+    font-size: 56px;
+    color: #171C38;
+}
+
+.add-card input{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.aside h4{
+    font-size: 30px;
+    border: 1px solid #434343;
+    background-color:#171C38;
+    color: #FCFAF2;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.recommend{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-top: 1px solid black;
+    background-image: url(../img/home/bg1.png),
+                      url(../img/home/mountain.png);
+    background-repeat: no-repeat;
+    background-position: right top,
+                         left bottom;
+}
+
+.recommend h1{
+    font-size: 40px;
+    margin: 100px 0 -100px 60px;
+}
+
+.recommend > .section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 150px 10px;
+}
+
+.section > .goods{
+    border: 1px solid #434343;
+    margin: 10px 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.section .goods img{
+    width: 100%;
+    position: relative;
+}
+
+.section .goods p a{
+    color: #434343;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.section .goods p{
+    text-align: center;
+}
+
+.section .goods .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section .goods .price .normal{
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.section .goods .price i{
+    font-size: 25px;
+    color: #434343;
+}

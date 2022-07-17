@@ -1,0 +1,101 @@
+.top img{
+    width: 100%;
+    display: block;
+}
+
+.main{
+    display: flex;
+    background-image: url(../img/home/mountain.png),
+                      url(../img/home/tree4.png),
+                      url(../img/home/tree3.png);
+    background-repeat: no-repeat;
+    background-position: left bottom,
+                         left 500px,
+                         right top;
+}
+
+.aside{
+    color: #434343;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 100px 0px 0px 190px;
+}
+
+.aside h1{
+    font-size: 30px;
+    border-bottom: 5px solid #434343;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.aside a{
+    color: #434343;
+    line-height: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    letter-spacing: 20px;
+    padding-top: 65px;
+}
+
+.right-area{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    position: static;
+    margin-top: 150px;
+    background-image: url(../img/home/bg1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 50%;
+}
+
+.goods img{
+    width: 100%;
+}
+
+.goods{
+    border: 1px solid #434343;
+    margin: 15px 15px 50px 0;
+    flex-basis: calc(25% - 70px);
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.goods img{
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.goods p a{
+    color: #434343;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.goods p{
+    text-align: center;
+}
+
+.goods .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.goods .price .normal{
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.goods .price i{
+    font-size: 25px;
+    color: #434343;
+}

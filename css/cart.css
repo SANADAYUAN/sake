@@ -1,0 +1,112 @@
+.cart{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.cart table{
+    width: 70%;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.title{
+    background-color: #171C38;
+    height: 60px;
+    
+}
+
+.title th{
+    color:#FCFAF2;
+    font-size: 24px;
+    vertical-align: middle;
+   
+}
+
+
+table .cg{
+    color: black;
+    font-size: 28px;
+    
+}
+
+.cg a{
+    text-decoration: none;
+    vertical-align: middle;
+    color: #434343;
+    
+}
+
+.gi img{
+    width: 200px;
+}
+
+.cg input{
+    width: 100px;
+    height: 60px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 70%;
+    margin: 50px 0 50px 325px;
+    display: flex;
+    justify-content: end; 
+}
+
+.btn .btn1{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #434343;
+    border-radius: 10px;
+    background-color: #434343;
+    text-align: center;
+    margin-right: 30px;
+    line-height: 60px;
+}
+
+.btn .btn2{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #171C38;
+    border-radius: 10px;
+    background-color: #171c38;
+    text-align: center;
+    margin-right: 50px;
+    line-height: 60px;
+}
+
+.btn a{
+    color: #FCFAF2;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

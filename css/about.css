@@ -1,0 +1,28 @@
+
+.about{
+    width: 70%;
+    margin: 0 auto 100px;
+}
+
+.mou1{
+    position: relative;
+    left: 1000px;
+    top: 100px;
+}
+
+.ti{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.pic{
+    display: flex;
+    font-size: 18px;
+}
+
+.pic p{
+    padding-left: 20px;
+    align-self: center;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}

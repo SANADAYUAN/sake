@@ -1,0 +1,159 @@
+.cart{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0px auto;
+    padding-bottom: 100px;
+    border-bottom: 5px solid #434343;
+    background-image: url(../img/home/tree6.png),
+                      url(../img/home/tree5.png);
+    background-repeat: no-repeat;
+    background-position: right 550px,
+                         left bottom;
+}
+
+.cart table{
+    width: 70%;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.title{
+    background-color: #171C38;
+    height: 60px;
+}
+
+.title th{
+    color:#FCFAF2;
+    font-size: 24px;
+    vertical-align: middle;
+   
+}
+
+
+table .cg{
+    color: black;
+    font-size: 28px;
+    
+}
+
+.cg a{
+    text-decoration: none;
+    vertical-align: middle;
+    color: #434343;
+    
+}
+
+.gi img{
+    width: 200px;
+}
+
+.cg .btn1{
+    font-size: 24px;
+}
+
+.cg input{
+    width: 100px;
+    height: 60px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.total{
+    width: 70%;
+    display: flex;
+    margin: 50px auto;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+.t1{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.freight{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.t2{
+    width: 300px;
+    border-top: 2px solid #434343;
+    text-align: end;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.pay{
+    width: 70%;
+    margin: 50px auto 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.pay h1{
+    font-size: 40px;
+    width: 300px;
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+}
+
+.pay ul{
+    padding-top: 20px;
+}
+
+.pm li {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.send p{
+    font-size: 30px;
+}
+
+.send input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 70%;
+    margin: 50px 0 50px 325px;
+    display: flex;
+    justify-content: end; 
+}
+
+.btn .btn1{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #434343;
+    border-radius: 10px;
+    background-color: #434343;
+    text-align: center;
+    margin-right: 30px;
+    line-height: 60px;
+}
+
+.btn .btn2{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #171C38;
+    border-radius: 10px;
+    background-color: #171c38;
+    text-align: center;
+    margin-right: 50px;
+    line-height: 60px;
+}
+
+.btn a{
+    color: #FCFAF2;
+    font-size: 24px;
+    text-decoration: none;
+}

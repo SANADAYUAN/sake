@@ -1,0 +1,92 @@
+.si{
+    background-image: url(../img/home/mountain.png),
+                      url(../img/home/tree6.png),
+                      url(../img/home/tree5.png);
+    background-repeat: no-repeat;
+    background-position: left 1500px,
+                          right center,
+                          left 50px;
+}
+
+.si h1{
+	font-size: 3em;
+	text-align: center;
+	padding-bottom: 30px;
+	letter-spacing: 2px;
+	position: relative;
+    margin-top: 50px;
+}
+
+.si h1:before, h1:after{
+	content: '';
+	display: block;
+	height: 1px;
+	width: 100px;
+	background-color: #999;
+	position: absolute;
+	top: 35%;
+}
+
+.si h1:before{
+	left: 50%;
+	margin-left: -300px;
+}
+
+.si h1:after{
+	right: 50%;
+	margin-right: -300px;
+}
+
+.basic{
+	width: 840px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	margin: 0 auto 30px auto;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+
+.basic img{
+    width: 200px;
+	display: block;
+	margin-right: 20px;
+	float: left;
+}
+
+.basic h2{
+	font-size: 26px;
+	padding-bottom: 10px;
+	color: #171c38;
+}
+
+.basic p{
+	font-size: 15px;
+	line-height: 1.6;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+.basic a{
+	display: block;
+	width: 100px;
+	line-height: 40px;
+	background-color: #171c38;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 5px;
+	float: right;
+}
+
+.transition{
+	transition-property: width;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
+}
+
+.transition:hover{
+	width: 900px;
+}
