@@ -169,11 +169,18 @@ td{
     line-height: 250px;
 }
 
+.nav a:nth-of-type(5){
+    position: relative;
+    top: 85px;
+    left: 260px;
+    font-size: 14px;
+}
+
 .footer .nav p{
     color: #FCFAF2;
     margin-top: -50px;
-    margin-left: 400px;
-    font-size: 12px;
+    margin-left: 240px;
+    font-size: 14px;
 }
 
 .notice{
