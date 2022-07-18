@@ -88,10 +88,10 @@ body{
     line-height: 250px;
 }
 
-.nav a:nth-of-type(5){
+.nav a:nth-of-type(6){
     position: relative;
     top: 85px;
-    left: 260px;
+    left: 130px;
     font-size: 14px;
 }
 
