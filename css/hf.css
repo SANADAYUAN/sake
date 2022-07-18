@@ -73,6 +73,7 @@ body{
     color: white;
     font-size: 20px;
     line-height: 1.8;
+    /* flex-shrink: 0; */
 }
 
 .footer nav{
@@ -87,11 +88,19 @@ body{
     line-height: 250px;
 }
 
+.nav a:nth-of-type(5){
+    position: relative;
+    top: 85px;
+    left: 260px;
+    font-size: 14px;
+}
+
 
 .footer .nav p{
     color: #FCFAF2;
     margin-top: -50px;
-    font-size: 12px;
+    margin-left: 160px;
+    font-size: 14px;
 }
 
 /* 警告標語 */
